@@ -1,0 +1,11 @@
+﻿Homepage placement,Filename in assets/images/,HTML reference
+Header / Footer logo,hanabi-official-logo.png,img src
+Homepage Hero,hanabi-homepage-hero-mtr.webp,img src
+About HANABI desktop,hanabi-about-tods-4096.webp,picture > img src
+About HANABI mobile,hanabi-about-tods-mobile-1440.jpg,picture > source srcset
+Cross-border border,hanabi-crossborder-border-advertising.webp,img src
+Cross-border rail,hanabi-crossborder-high-speed-rail.webp,img src
+Cross-border bus,hanabi-crossborder-bus.webp,img src
+Local MTR / Klook,hanabi-local-mtr-klook-wall-hero-01.webp,img src
+Local bus,hanabi-local-bus-advertising.webp,img src
+Local tram,hanabi-local-tram-advertising.webp,img src
