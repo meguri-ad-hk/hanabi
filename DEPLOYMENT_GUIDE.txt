@@ -1,0 +1,9 @@
+HANABI LAUNCH — 2026-11-23
+
+Upload contents of this folder to ROOT of github.com/meguri-ad-hk/hanabi (main).
+Keep existing other files. Files within media/ must be uploaded INTO media/.
+Go to Settings > Pages / Actions to confirm deployment.
+Test homepage, directory, each media detail (TC and SC), navigation, filter, tabs, WhatsApp, form.
+The media pages include current approved images; some Explorer locations still have photo placeholders. Replace incrementally after launch.
+Noindex removed and canonical/hreflang added for public URLs on GitHub Pages. Change canonical/hreflang if switching to a custom domain.
+Do not deploy to a different domain without updating absolute links.

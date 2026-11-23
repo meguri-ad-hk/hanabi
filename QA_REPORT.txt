@@ -1,0 +1,44 @@
+HANABI PRE-LAUNCH QA REPORT — 2026-11-23
+
+SOURCE VERSIONS
+Homepage: approved Visible Rhythm Revision (TC/SC)
+Directory: approved Rhythm Refined v7 (TC/SC)
+Border Advertising: approved v12 Content Refined (TC); derived simplified Chinese translation (SC)
+Other 5 media: v4 Mobile Composition (TC/SC)
+Assets: 9 approved images from 2026-11-22 deployment bundle
+Legal pages: copied from approved Homepage Complete Assets archive
+
+FIXES APPLIED
+- Homepage six Media Discovery images made into accessible links to corresponding media pages (same visual classes).
+- Homepage guide links and media category footer links connected to media pages.
+- Directory six media cards connected to corresponding detail pages.
+- Directory SC top media navigation corrected to directory-zh-cn.html.
+- Border SC page generated from approved traditional page (automated character conversion; human copy review advisable).
+- Border page footer media category links connected to existing media pages.
+- Noindex/nofollow REMOVED from public media pages. All 16 public HTML pages are index,follow.
+- Canonical and zh-HK/zh-CN/x-default alternate URLs added to all 16 public pages.
+- Traditional text in simple media pages normalized to Simplified via standard transliteration.
+- sitemap.xml lists 16 public pages.
+
+STATIC QA PASSED
+- 20 HTML files; 16 public pages + four legal pages.
+- All relative links, internal anchors and local image paths resolve in the deployment tree.
+- All inline JavaScript blocks pass node --check.
+- Single H1 on each public page.
+- Site images included in assets/images; media-page and directory hero images embedded.
+- Homepage form action retained at https://formspree.io/f/mwloeqjq; NOT verified end-to-end.
+- WhatsApp links retained, but external delivery is NOT verified.
+
+NOT VERIFIED / FOLLOW-UP
+- Real browser QA BLOCKED: Chromium localhost page load returns ERR_BLOCKED_BY_ADMINISTRATOR in this environment. Cannot claim CSS visual QA, tap/swipe/test success, form or external WhatsApp delivery.
+- Some media image options remain intentionally empty placeholders; images can be added incrementally.
+- Border SC was automatically converted; please visually proofread mainland language choices when feasible.
+- Legal pages preserve existing noindex, intentionally. Verify they satisfy your actual legal requirements.
+- Current domain is GitHub Pages. Rework canonical/hreflang and some absolute links if moving to custom domain.
+- GitHub Pages deployment has NOT been performed here; confirm Actions/Pages status after upload.
+- Review GA4, Google Search Console and lead conversion tracking separately after launch.
+
+LAUNCH GO/NO-GO
+STATIC PATH / SEO GATE: PASS
+LIVE BROWSER / END-TO-END GATE: NOT TESTED (environment restriction)
+Recommended: deploy, then smoke-test first on iPhone and desktop before running paid acquisition.
