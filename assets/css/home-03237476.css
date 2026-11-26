@@ -670,7 +670,7 @@ body{background:var(--paper);}
 .journey-step:first-child{padding-top:4px;}
 
 
-.faq{background:none;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(25px,5vw,70px);padding:clamp(46px,5.2vw,76px) clamp(30px,4.8vw,60px);align-items:start;}
+.faq{background:none;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(25px,5vw,70px);padding:clamp(46px,5.2vw,76px) clamp(30px,4.8vw,60px);align-items:center;}
 
 
 .faq .section-head{position:static;top:auto;}
@@ -694,7 +694,7 @@ body{background:var(--paper);}
 .faq-note{margin-top:12px;}
 
 
-.contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(25px,5vw,70px);padding:clamp(30px,4.8vw,60px);align-items:start;}
+.contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(25px,5vw,70px);padding:clamp(30px,4.8vw,60px);align-items:center;}
 
 
 .contact-intro .section-title{margin:12px 0 0;}
@@ -833,7 +833,7 @@ body{background:var(--paper);}
 .journey-step:first-child{padding-top:0;}
 
 
-.faq{display:grid;grid-template-columns:1fr;gap:20px;padding:36px var(--mobile-content-inset) 42px;}
+.faq{display:grid;grid-template-columns:1fr;gap:20px;padding:36px var(--mobile-content-inset) 42px;align-items:start;}
 
 
 .faq .section-head{margin:0;}
@@ -842,7 +842,7 @@ body{background:var(--paper);}
 .qa-card{min-height:0;padding:0;margin-inline:0;width:100%;}
 
 
-.contact{display:grid;grid-template-columns:1fr;gap:24px;padding:var(--mobile-panel-padding);}
+.contact{display:grid;grid-template-columns:1fr;gap:24px;padding:var(--mobile-panel-padding);align-items:start;}
 
 .contact-form{padding-top:2px;}
 
