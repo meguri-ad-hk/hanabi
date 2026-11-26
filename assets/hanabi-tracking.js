@@ -3,7 +3,12 @@
   const ID='G-QRPTRV4EF6', KEY='hanabi_measurement_consent_v1';
   const sc=document.documentElement.lang.toLowerCase().includes('cn') || location.pathname.includes('zh-cn');
   let choice=null, started=false;
-  try { choice=localStorage.getItem(KEY); } catch (_) {}
+  function readChoice(){
+    try {const v=localStorage.getItem(KEY);if(v==='yes'||v==='no')return v;}catch(_){}
+    const m=document.cookie.match(/(?:^|;\s*)hanabi_measurement_consent_v1=(yes|no)(?:;|$)/);return m?m[1]:null;
+  }
+  function saveChoice(v){try{localStorage.setItem(KEY,v);}catch(_){};try{document.cookie=KEY+'='+v+'; Path=/; Max-Age=15552000; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');}catch(_){}}
+  choice=readChoice();
   window.dataLayer=window.dataLayer||[];
   window.gtag=function(){window.dataLayer.push(arguments);};
   gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
@@ -27,9 +32,9 @@
     function show(){
       if(document.getElementById('hanabi-consent'))return;
       const panel=document.createElement('aside'); panel.id='hanabi-consent'; panel.setAttribute('aria-label',sc?'网站测量设置':'網站測量設定'); panel.className='hanabi-consent-panel';
-      const p=document.createElement('p'); p.className='hanabi-consent-copy'; p.textContent=sc?'我们使用 Google Analytics 和广告测量技术了解网站及广告成效。您可接受或拒绝非必要测量。':'我們使用 Google Analytics 及廣告測量技術了解網站及廣告成效。你可接受或拒絕非必要測量。'; panel.append(p);
+      const p=document.createElement('p'); p.className='hanabi-consent-copy'; p.textContent=sc?'我们使用 Google Analytics 及广告测量工具。您可接受或拒绝非必要的数据收集。':'我們使用 Google Analytics 及廣告測量工具。你可接受或拒絕非必要的數據收集。'; panel.append(p);
       const buttons=document.createElement('div'); buttons.className='hanabi-consent-actions';
-      for(const [value,label] of [['yes',sc?'接受测量':'接受測量'],['no',sc?'拒绝':'拒絕']]){const b=document.createElement('button');b.type='button';b.textContent=label;b.className='hanabi-consent-button'+(value==='yes'?' hanabi-consent-accept':'');b.onclick=()=>{const was=choice;choice=value;try{localStorage.setItem(KEY,value);}catch(_){};if(value==='yes')start();else if(started){gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});location.reload();}panel.remove();};buttons.append(b);} panel.append(buttons);document.body.append(panel);
+      for(const [value,label] of [['yes',sc?'接受测量':'接受測量'],['no',sc?'拒绝':'拒絕']]){const b=document.createElement('button');b.type='button';b.textContent=label;b.className='hanabi-consent-button'+(value==='yes'?' hanabi-consent-accept':'');b.onclick=()=>{choice=value;saveChoice(value);if(value==='yes')start();else if(started){gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});location.reload();}panel.remove();};buttons.append(b);} panel.append(buttons);document.body.append(panel);
     }
     settings.onclick=show;if(choice!=='yes'&&choice!=='no')show();
     const form=document.getElementById('briefForm'); if(!form)return;
