@@ -1,0 +1,8 @@
+HANABI Responsive Release — 2026-11-26
+Deploy the contents of this ZIP at the root of the existing GitHub Pages repository. Do not upload the ZIP itself as the website. Retain the CNAME and sitemap.
+
+Changes: shared header component; mobile section insets and carousel widths; transparent media labels; approved About copy; gradient 16:9 image placeholders; right-aligned media CTA (when no remarks, aligned to bottom of media row); directory descriptions and arrow removal; footer spacing; directory mobile menu state fix.
+
+QA: 20 HANABI pages × 5 viewport widths (375, 390, 430, 768, 1440), 40 media tab states, mobile menu on home/directory/detail pages, directory cross-border filter, FAQ interaction, decoded images and full-page screenshot sampling of 10 pages at 390px, mocked successful form submission with generate_lead. 668 local resource/link references checked, none missing. Layout checks were performed before final shared CTA hover accent adjustment; decoded visual sample and mock form afterwards.
+
+Limitations: local HTTP browser navigation blocked by environment. Used offline Chromium with embedded local CSS, JS and images; external requests blocked and fallback local CJK font. No physical iPhone/Safari, real Google Ads/GA4 hits, real Formspree submission, or live-domain QA. No changes to tracking JS, GA4 ID, sitemap, CNAME, or form endpoint. The original unrelated zh/index.html is preserved and excluded from HANABI QA. Existing legacy CSS remains; no new !important rules added. Earlier QA files are historical, this report supersedes them.

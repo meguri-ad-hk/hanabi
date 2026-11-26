@@ -1,0 +1,429 @@
+{
+  "cases": 140,
+  "pages": [
+    "index-zh-cn.html",
+    "index.html",
+    "media/border-advertising-zh-cn.html",
+    "media/border-advertising.html",
+    "media/bus-advertising-zh-cn.html",
+    "media/bus-advertising.html",
+    "media/cross-border-bus-advertising-zh-cn.html",
+    "media/cross-border-bus-advertising.html",
+    "media/directory-zh-cn.html",
+    "media/directory.html",
+    "media/high-speed-rail-advertising-zh-cn.html",
+    "media/high-speed-rail-advertising.html",
+    "media/mtr-advertising-zh-cn.html",
+    "media/mtr-advertising.html",
+    "media/tram-advertising-zh-cn.html",
+    "media/tram-advertising.html",
+    "privacy-policy-zh-cn.html",
+    "privacy-policy.html",
+    "terms-and-disclaimer-zh-cn.html",
+    "terms-and-disclaimer.html"
+  ],
+  "issues": [],
+  "errors": [],
+  "interactions": [
+    [
+      "index-zh-cn.html",
+      "FAQ",
+      6
+    ],
+    [
+      "index-zh-cn.html",
+      "mock form + consent event",
+      true
+    ],
+    [
+      "index.html",
+      "FAQ",
+      6
+    ],
+    [
+      "index.html",
+      "mock form + consent event",
+      true
+    ],
+    [
+      "media/border-advertising-zh-cn.html",
+      "media tabs",
+      5
+    ],
+    [
+      "media/border-advertising.html",
+      "media tabs",
+      5
+    ],
+    [
+      "media/bus-advertising-zh-cn.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/bus-advertising.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/cross-border-bus-advertising-zh-cn.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/cross-border-bus-advertising.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/directory-zh-cn.html",
+      "directory filters",
+      7
+    ],
+    [
+      "media/directory.html",
+      "directory filters",
+      7
+    ],
+    [
+      "media/high-speed-rail-advertising-zh-cn.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/high-speed-rail-advertising.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/mtr-advertising-zh-cn.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/mtr-advertising.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/tram-advertising-zh-cn.html",
+      "media tabs",
+      3
+    ],
+    [
+      "media/tram-advertising.html",
+      "media tabs",
+      3
+    ]
+  ],
+  "protected": [
+    {
+      "page": "index.html",
+      "original": {
+        "1440": {
+          ".hero-title": [
+            "94px",
+            "1.128px",
+            "110.92px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "17px",
+            "4.42px",
+            "23.8px",
+            "600"
+          ],
+          ".hero-eyebrow": null
+        },
+        "390": {
+          ".hero-title": [
+            "40.365px",
+            "0.72657px",
+            "47.2271px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "10.92px",
+            "1.4196px",
+            "16.38px",
+            "600"
+          ],
+          ".hero-eyebrow": null
+        }
+      },
+      "refined": {
+        "1440": {
+          ".hero-title": [
+            "94px",
+            "1.128px",
+            "110.92px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "17px",
+            "4.42px",
+            "23.8px",
+            "600"
+          ],
+          ".hero-eyebrow": null
+        },
+        "390": {
+          ".hero-title": [
+            "40.365px",
+            "0.72657px",
+            "47.2271px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "10.92px",
+            "1.4196px",
+            "16.38px",
+            "600"
+          ],
+          ".hero-eyebrow": null
+        }
+      },
+      "match": true
+    },
+    {
+      "page": "index-zh-cn.html",
+      "original": {
+        "1440": {
+          ".hero-title": [
+            "94px",
+            "1.128px",
+            "110.92px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "17px",
+            "4.42px",
+            "23.8px",
+            "600"
+          ]
+        },
+        "390": {
+          ".hero-title": [
+            "40.365px",
+            "0.72657px",
+            "47.2271px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "10.92px",
+            "1.4196px",
+            "16.38px",
+            "600"
+          ]
+        }
+      },
+      "refined": {
+        "1440": {
+          ".hero-title": [
+            "94px",
+            "1.128px",
+            "110.92px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "17px",
+            "4.42px",
+            "23.8px",
+            "600"
+          ]
+        },
+        "390": {
+          ".hero-title": [
+            "40.365px",
+            "0.72657px",
+            "47.2271px",
+            "800"
+          ],
+          ".hero-slogan": [
+            "10.92px",
+            "1.4196px",
+            "16.38px",
+            "600"
+          ]
+        }
+      },
+      "match": true
+    },
+    {
+      "page": "media/mtr-advertising.html",
+      "original": {
+        "1440": {
+          ".bp-hero h1": [
+            "79.2px",
+            "7.128px",
+            "90.288px",
+            "700"
+          ],
+          ".bp-hero-lead": [
+            "17px",
+            "0.595px",
+            "33.15px",
+            "400"
+          ],
+          ".bp-explorer h2": [
+            "43px",
+            "2.365px",
+            "55.04px",
+            "700"
+          ],
+          ".related-media h2": [
+            "37px",
+            "0.925px",
+            "46.62px",
+            "700"
+          ]
+        },
+        "390": {
+          ".bp-hero h1": [
+            "42.12px",
+            "3.7908px",
+            "48.0168px",
+            "700"
+          ],
+          ".bp-hero-lead": [
+            "13px",
+            "0.455px",
+            "24.05px",
+            "400"
+          ],
+          ".bp-explorer h2": [
+            "29px",
+            "1.595px",
+            "37.12px",
+            "700"
+          ],
+          ".related-media h2": [
+            "26px",
+            "0.65px",
+            "32.76px",
+            "700"
+          ]
+        }
+      },
+      "refined": {
+        "1440": {
+          ".bp-hero h1": [
+            "79.2px",
+            "7.128px",
+            "90.288px",
+            "700"
+          ],
+          ".bp-hero-lead": [
+            "17px",
+            "0.595px",
+            "33.15px",
+            "400"
+          ],
+          ".bp-explorer h2": [
+            "43px",
+            "2.365px",
+            "55.04px",
+            "700"
+          ],
+          ".related-media h2": [
+            "37px",
+            "0.925px",
+            "46.62px",
+            "700"
+          ]
+        },
+        "390": {
+          ".bp-hero h1": [
+            "42.12px",
+            "3.7908px",
+            "48.0168px",
+            "700"
+          ],
+          ".bp-hero-lead": [
+            "13px",
+            "0.455px",
+            "24.05px",
+            "400"
+          ],
+          ".bp-explorer h2": [
+            "29px",
+            "1.595px",
+            "37.12px",
+            "700"
+          ],
+          ".related-media h2": [
+            "26px",
+            "0.65px",
+            "32.76px",
+            "700"
+          ]
+        }
+      },
+      "match": true
+    },
+    {
+      "page": "media/mtr-advertising-zh-cn.html",
+      "original": {
+        "1440": {
+          ".bp-hero h1": [
+            "79.2px",
+            "7.128px",
+            "90.288px",
+            "700"
+          ],
+          ".bp-explorer h2": [
+            "43px",
+            "2.365px",
+            "55.04px",
+            "700"
+          ]
+        },
+        "390": {
+          ".bp-hero h1": [
+            "42.12px",
+            "3.7908px",
+            "48.0168px",
+            "700"
+          ],
+          ".bp-explorer h2": [
+            "29px",
+            "1.595px",
+            "37.12px",
+            "700"
+          ]
+        }
+      },
+      "refined": {
+        "1440": {
+          ".bp-hero h1": [
+            "79.2px",
+            "7.128px",
+            "90.288px",
+            "700"
+          ],
+          ".bp-explorer h2": [
+            "43px",
+            "2.365px",
+            "55.04px",
+            "700"
+          ]
+        },
+        "390": {
+          ".bp-hero h1": [
+            "42.12px",
+            "3.7908px",
+            "48.0168px",
+            "700"
+          ],
+          ".bp-explorer h2": [
+            "29px",
+            "1.595px",
+            "37.12px",
+            "700"
+          ]
+        }
+      },
+      "match": true
+    }
+  ]
+}

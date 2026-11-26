@@ -1,0 +1,1240 @@
+{
+  "method": "Offline Chromium rendering with embedded local assets and local JS, external requests blocked, fallback CJK fonts. Not real-device or live-domain testing. Earlier layout matrix performed before final shared CTA hover styling; final decoded visual pass after it.",
+  "layout": [
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "index.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "faq": true
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "index-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "faq": true
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy.html",
+      "w": 390,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy-zh-cn.html",
+      "w": 390,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer-zh-cn.html",
+      "w": 390,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer.html",
+      "w": 390,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "电车车身"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "沿线环境"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "活动组合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "跨境路线"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "车辆广告"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "车队组合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "羅湖"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "落馬洲支線／福田"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "深圳灣"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "皇崗"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "其他口岸"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "車站媒體"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "數碼媒體"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "網絡組合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "香港西九龙站"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "站内旅客区"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "跨站覆盖"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "filter": 3
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "香港西九龍站"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "站內旅客區"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "跨站覆蓋"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "車身廣告"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "區域路線"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "車隊組合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "電車車身"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "沿線環境"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "活動組合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "车身广告"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "区域路线"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "车队组合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "跨境路線"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "車輛廣告"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "車隊組合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "车站媒体"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "数字媒体"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "网络组合"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "filter": 3
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising-zh-cn.html",
+      "w": 390,
+      "errors": [],
+      "menu": true,
+      "tabs": [
+        {
+          "ready": "true",
+          "ratio": 1.78,
+          "placeholder": null,
+          "selected": "罗湖"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "落马洲支线／福田"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "深圳湾"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "皇岗"
+        },
+        {
+          "ready": "false",
+          "ratio": 1.78,
+          "placeholder": "flex",
+          "selected": "其他口岸"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "index.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "index-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "viewport": 375,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising-zh-cn.html",
+      "w": 375,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "index.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "index-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 430,
+      "viewport": 430,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising-zh-cn.html",
+      "w": 430,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "index.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "index-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising-zh-cn.html",
+      "w": 768,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "index.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "index-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "privacy-policy-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "terms-and-disclaimer.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/high-speed-rail-advertising.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/tram-advertising.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/bus-advertising-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/cross-border-bus-advertising.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/mtr-advertising-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/directory-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "clipped": [],
+      "badImages": [],
+      "path": "media/border-advertising-zh-cn.html",
+      "w": 1440,
+      "errors": []
+    }
+  ],
+  "decoded_visual_and_mock_form": [
+    {
+      "page": "index.html",
+      "badImages": []
+    },
+    {
+      "page": "index-zh-cn.html",
+      "badImages": []
+    },
+    {
+      "page": "media/directory.html",
+      "badImages": []
+    },
+    {
+      "page": "media/directory-zh-cn.html",
+      "badImages": []
+    },
+    {
+      "page": "media/border-advertising.html",
+      "badImages": []
+    },
+    {
+      "page": "media/high-speed-rail-advertising.html",
+      "badImages": []
+    },
+    {
+      "page": "media/cross-border-bus-advertising.html",
+      "badImages": []
+    },
+    {
+      "page": "media/mtr-advertising.html",
+      "badImages": []
+    },
+    {
+      "page": "media/bus-advertising.html",
+      "badImages": []
+    },
+    {
+      "page": "media/tram-advertising.html",
+      "badImages": []
+    },
+    {
+      "mockForm": "感謝你的查詢，我們會盡快與你聯絡。",
+      "events": [
+        "generate_lead"
+      ]
+    }
+  ],
+  "local_link_references_checked": 668,
+  "missing_local_links": 0,
+  "tracking_script_unchanged": true
+}
