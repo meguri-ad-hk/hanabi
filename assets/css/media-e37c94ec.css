@@ -1703,5 +1703,6 @@ html{scroll-padding-top:94px;}
 .border-detail .border-page .bp-product-content + .bp-product-content{margin-top:24px;}
 .border-detail .border-page .bp-enhanced .bp-product-content{margin-top:0;}
 .border-detail .border-page .bp-enhanced .bp-slide{position:absolute;inset:0;}
-.border-detail .border-page .bp-location-caption{margin:6px 0 0;font-size:12px;line-height:var(--leading-small);color:#685568;letter-spacing:var(--tracking-small);}
+.border-detail .border-page .bp-location-caption{position:absolute;z-index:1;right:0;bottom:0;margin:0;padding:12px 20px 16px 32px;font-size:13px;font-weight:400;line-height:var(--leading-small);color:#fffaf9;letter-spacing:.04em;text-align:right;background:radial-gradient(ellipse at bottom right,rgba(48,30,50,.8),rgba(48,30,50,.52) 42%,transparent 78%);text-shadow:0 1px 3px rgba(0,0,0,.65);pointer-events:none;}
+@media(max-width:767px){.border-detail .border-page .bp-location-caption{font-size:12px;padding:8px 12px 10px 24px;}}
 .border-detail .border-page [hidden]{display:none!important;}
