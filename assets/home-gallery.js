@@ -1,0 +1,7 @@
+(()=>{'use strict';const desktop=matchMedia('(min-width:741px)'),reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ document.querySelectorAll('#media .gallery.gallery-flex').forEach(g=>{const cards=[...g.querySelectorAll('.gallery-card')],dots=g.nextElementSibling,buttons=[...dots.querySelectorAll('button')],controls=[...g.parentElement.querySelectorAll('.home-gallery-controls button')],local=g.classList.contains('gallery-local');let current=0;
+ function last(){return desktop.matches?(local?cards.length-3:0):cards.length-1}
+ function go(i){i=Math.max(0,Math.min(last(),i));const c=cards[i];if(!c)return;const delta=c.getBoundingClientRect().left-g.getBoundingClientRect().left;g.scrollTo({left:g.scrollLeft+delta,behavior:reduced.matches?'auto':'smooth'})}
+ function update(){const max=last();let best=Infinity;current=0;const left=g.getBoundingClientRect().left;cards.slice(0,max+1).forEach((c,i)=>{const d=Math.abs(c.getBoundingClientRect().left-left);if(d<best){best=d;current=i}});if(g.scrollLeft>=g.scrollWidth-g.clientWidth-2&&g.scrollWidth>g.clientWidth+2)current=max;buttons.forEach((b,i)=>{b.hidden=i>max;b.setAttribute('aria-current',String(i===current))});controls.forEach(b=>b.disabled=Number(b.dataset.step)<0?current===0:current===max)}
+ buttons.forEach((b,i)=>b.addEventListener('click',()=>go(i)));controls.forEach(b=>b.addEventListener('click',()=>go(current+Number(b.dataset.step))));g.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update,{passive:true});update();
+ });})();

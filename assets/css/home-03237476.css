@@ -1472,3 +1472,11 @@ html{scroll-padding-top:94px;}
 
 }
 
+/* Adaptive media gallery: 3 static cross-border cards; 3 visible local cards, 1-card steps. */
+#media .home-gallery-controls{display:none;gap:8px;align-items:center;}
+#media .home-gallery-controls button{display:grid;place-items:center;width:36px;height:36px;background:transparent;border:1px solid #c8b6c3;border-radius:50%;color:var(--plum);cursor:pointer;}
+#media .home-gallery-controls button:disabled{opacity:.32;cursor:default;}
+#media .home-gallery-controls button:focus-visible{outline:2px solid var(--plum);outline-offset:2px;}
+#media .home-gallery-controls svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+#media .media-dots button[hidden]{display:none!important;}
+@media(min-width:741px){#local-media .media-group-head{display:flex;align-items:center;justify-content:space-between;}#media .home-gallery-controls{display:flex;}#media .gallery-local{display:flex;gap:var(--space-md);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;}#media .gallery-local::-webkit-scrollbar{display:none;}#media .gallery-local .gallery-card{flex:0 0 calc((100% - 2 * var(--space-md))/3);scroll-snap-align:start;}#local-media .media-dots{display:flex;margin-top:8px;}}
