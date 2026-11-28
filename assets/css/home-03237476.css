@@ -1367,7 +1367,7 @@ html{scroll-padding-top:94px;}
 #faq .faq-main > .faq-note{margin-top:18px;align-self:flex-end;}
 
 
-#faq{padding-bottom:28px;}
+#faq{padding-bottom:0;}
 #faq .faq-main{padding-inline:calc(var(--home-text-inset) - 1px);}
 .footer>.container{padding-inline:var(--home-text-inset);}
 
