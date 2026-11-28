@@ -1406,6 +1406,7 @@ html{scroll-padding-top:94px;}
 
 
 .bp-synopsis-line{display:inline;}
+@media(max-width:740px){.bp-hero-lead .bp-synopsis-line{display:block;line-break:strict;word-break:normal;overflow-wrap:normal;text-wrap:balance;}}
 .bp-keep-word{white-space:nowrap;}
 
 
