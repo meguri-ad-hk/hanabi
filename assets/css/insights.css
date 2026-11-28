@@ -26,7 +26,7 @@
 
 .insight-list-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-xl) var(--space-lg);align-items:start}
 .insight-section-head{display:flex;justify-content:space-between;align-items:end;gap:var(--space-md);margin-bottom:var(--space-lg)}
-.insight-section-head .bp-eyebrow{font-family:var(--type-latin);font-size:11px;font-weight:700;letter-spacing:var(--tracking-eyebrow);color:#93617b;margin:0 0 var(--space-sm)}
+.insight-section-head .bp-eyebrow,.home-insights .insight-section-head .eyebrow{font-family:var(--type-latin);font-size:11px;font-weight:700;letter-spacing:var(--tracking-eyebrow);color:#93617b;margin:0 0 var(--space-sm)}
 .insight-directory-content h1{font-size:clamp(30px,3.15vw,45px);font-weight:750;letter-spacing:var(--tracking-heading);line-height:var(--leading-heading);margin:0;color:#34233a}
 .insight-directory-content{padding-bottom:var(--section-gap)}
 .insight-cluster{scroll-margin-top:100px;margin-top:var(--section-gap)}.insight-cluster h2{font-size:clamp(22px,2.15vw,30px);line-height:var(--leading-subheading);letter-spacing:var(--tracking-subheading);font-weight:650;color:#34233a;margin:0 0 var(--space-lg)}
