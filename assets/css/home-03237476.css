@@ -1341,10 +1341,16 @@ html{scroll-padding-top:94px;}
 #faq .faq-main > .faq-note{margin-top:22px;align-self:flex-end;}
 
 
-#faq .faq-main{display:flex;flex-direction:column;min-width:0;align-items:flex-start;background:rgba(255,252,250,.72);border:1px solid rgba(83,55,78,.16);padding:clamp(20px,3vw,38px);border-radius:0;width:100%;box-sizing:border-box;}
+#faq .faq-main{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto;min-width:0;align-items:start;background:rgba(255,252,250,.72);border:1px solid rgba(83,55,78,.16);padding:clamp(20px,3vw,38px);border-radius:0;width:100%;box-sizing:border-box;}
 
 
-#faq .faq-main > .qa-card,#faq .faq-main > .faq-controls{align-self:stretch;}
+#faq .faq-main > .qa-card{grid-area:1/1;align-self:stretch;min-block-size:0;}
+#faq .faq-main > .qa-card[hidden]{display:block!important;visibility:hidden;pointer-events:none;}
+#faq .qa-card p{margin:0;max-width:none;text-wrap:pretty;line-break:strict;}
+#faq .qa-card p+p{margin-top:var(--space-md);}
+#faq .qa-card p a{text-decoration:underline;text-underline-offset:3px;}
+#faq .faq-main > .faq-dots{grid-row:2;}
+#faq .faq-main > .faq-note{grid-row:3;justify-self:end;}
 
 
 #faq .section-head > .faq-note{display:none!important;}
